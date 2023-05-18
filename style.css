@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #4878c0;
+  color: rgb(0, 0, 0);
+}
+
+main {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.divAltura, .divPeso, .divValor {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 8px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #0300a0;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  body, input, button {
+    font-size: 15px;
+  }
+}
